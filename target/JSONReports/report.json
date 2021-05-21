@@ -1,0 +1,72 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2021-05-21T15:16:28.374Z",
+        "line": 3,
+        "name": "searching for a topic using a keyword",
+        "description": "",
+        "id": "searching-function-is-working-or-not;searching-for-a-topic-using-a-keyword",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 18385623477,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "user is in search page",
+            "match": {
+              "location": "stepdefinition.SearchSteps.user_is_in_search_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 313539658,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "user enter the keyword",
+            "match": {
+              "location": "stepdefinition.SearchSteps.user_enter_the_keyword()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 7102936211,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "user press Enter key",
+            "match": {
+              "location": "stepdefinition.SearchSteps.user_press_enter_key()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 83147523,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "search result displayed",
+            "match": {
+              "location": "stepdefinition.SearchSteps.search_result_displayed()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "searching function is working or not",
+    "description": "",
+    "id": "searching-function-is-working-or-not",
+    "keyword": "Feature",
+    "uri": "file:src/test/java/features/search.feature",
+    "tags": []
+  }
+]

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite errors="0" failures="0" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="1" time="27.133">
+    <testcase classname="searching function is working or not" name="searching for a topic using a keyword" time="26.301">
+        <system-out><![CDATA[Given user is in search page................................................passed
+When user enter the keyword.................................................passed
+And user press Enter key....................................................passed
+Then search result displayed................................................passed
+]]></system-out>
+    </testcase>
+</testsuite>
